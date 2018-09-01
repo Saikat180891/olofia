@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.mobile.css">
+	<title>Olofia | The World of Innovation</title>
+	
+</head>
+<body>
+<div id="custom-navbar" class="fixed-top">
+
+	<div id="custom-navbar-brand" style="color: white;">
+		Olofia
+	</div>
+	
+	<div id="custom-navbar-button">
+		<a id="dash-button" class="attach">
+			<div class="dash"></div>
+			<div class="dash"></div>
+			<div class="dash"></div>
+		</a>
+
+		<a id="close-button" class="dettach">
+			<div style="font-size: 30px; color: #ede7f6;text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);">
+				<b><i class="fas fa-times"></i></b>
+			</div>
+		</a>
+
+	</div>
+</div>
+
+<div id="menu-bar" class="dettach">
+	<a href="">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>Home</div>
+			<p>Where it all begins</p>
+		</div>
+	</a>
+	<a href="">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>About Me</div>
+			<p>Know anout me</p>
+		</div>
+	</a>
+	<a href="">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>Services</div>
+			<p>Get the best services available in market</p>
+		</div>
+	</a>
+	<a href="">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>Technologies</div>
+			<p>The technologies I use for my websites</p>
+		</div>
+	</a>
+	<a href="#blog-main-content">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>OloDash</div>
+			<p>The most interactive dashboard</p>
+		</div>
+	</a>
+	<a href="#contact">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>Contact Me</div>
+			<p>Hire me if you want a awesome website for your company</p>
+		</div>
+	</a>
+	<a href="#news-letter">
+		<div class="menu-item" onclick="closeMenu()">
+			<div>Subscribe to my Newsletter</div>
+			<p>Get latest updates about my upcoming projects</p>
+		</div>
+	</a>
+</div>
+<!-- nav end, body start -->
+<div class="jumbotron-custom" style="padding: 0;">
+	<video src="video/code.mp4" autoplay muted loop style="position: fixed;"></video>
+	<div id="make-img-back" class="img-back"></div>
+</div>
+
+<div id="template2" class="heading-mobile">
+	<p id="main-heading">>>>print("Hello World!!!");</p>
+</div>
+
+<div id="template">
+	<h3 id="template-h3"></h3>
+	<p style="width: 550px;">I have been designing websites for the last 2 years. I have worked on various technologies such as HTML, CSS, JavaScript, jQuery, Node.js, React.js and many more. I have also worked on backend technologies such as PHP and Python</p>
+</div>
+
+<div id="template3">
+	<h3 id="template3-h3">Services</h3>
+	<!-- first row of services -->
+	<div class="row-custom">
+		<div id="web" class="service-cards">
+			<div>
+				<i class="fas fa-desktop icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">Web Development</h5>
+				<!-- <p style="font-size: 15px;">Designing and Developing Web Aplications and Interfaces. 
+				User Experiences with simple information display or complex back end solutions</p> -->
+			</div>
+		</div>
+		<div id="seo" class="service-cards">
+			<div>
+				<i class="fas fa-microchip icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">Embedded Systems</h5>
+				<!-- <p style="font-size: 15px;">Designing high performance algorithms for modern application</p> -->
+			</div>
+		</div>
+		<div id="mobile" class="service-cards ">
+			<div>
+				<i class="fas fa-mobile icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">Mobile App Development</h5>
+				<!-- <p style="font-size: 15px;">Apps </p> -->
+			</div>
+		</div>
+	</div>
+	<!-- second row of services -->
+	<div class="row-custom">
+		<div id="embed" class="service-cards">
+			<div>
+				<i class="fab fa-audible icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">Internet-of-things</h5>
+				<!-- <p style="font-size: 15px;">Apps </p> -->
+			</div>
+		</div>
+		<div class="service-cards">
+			<div>
+				<i class="fas fa-search icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">SEO</h5>
+				<!-- <p style="font-size: 15px;">Apps </p> -->
+			</div>
+		</div>
+		<div class="service-cards">
+			<div>
+				<i class="fas fa-chart-pie icon-style"></i>
+			</div>
+			<div>
+				<h5 style="color: #c60055;">Data Analytics</h5>
+				<!-- <p style="font-size: 15px;">Apps </p> -->
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div id="technology-manager">
+	<h3 id="template3-h3" style="color: white;">Technologies</h3>
+
+	
+		<div class="row-custom-tech">
+
+			<div id="webhtml" class="service-cards-tech">
+				<div>
+					<img class="img-web" src="images/php.png">
+				</div>
+			</div>
+			<div class="service-cards-tech">
+				<div>
+					<img class="img-web" src="images/python.png">
+				</div>
+			</div>
+			<div class="service-cards-tech">
+				<div>
+					<img class="img-web" src="images/javascript_logo.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="row-custom-tech">
+			<div id="webjs" class="service-cards-tech">
+				<img class="img-web" src="images/jquery.png">
+			</div>
+			<div class="service-cards-tech">
+				<img class="img-web" src="images/logo.svg">
+			</div>
+			<div class="service-cards-tech">
+				<img class="img-web" src="images/react.png">
+			</div>
+		</div>
+
+
+
+</div>
+
+
+<div id="myModal">
+	<div class="modal-content">
+		<div class="modal-head">
+			<span id="cls" class="close">&times;</span>
+			<h6 style="width: 70%;">This is the header of the news</h6>
+		</div>
+		<div class="modal-body">
+			<img src=""><br>
+			<p class="modal-body-content"></p>
+		</div>
+	</div>
+</div>
+
+<div id="my-blog">
+	<!-- Dashboard starts here -->
+
+	<div id="blog-container">
+		<div id="left-side-bar-logo" onclick="olodash()">
+			OloDash
+		</div>
+		<!-- left side panel -->
+		<div id="left-side-bar-link">
+			<div onclick="projects()">Projects</div>
+			<div onclick="gallery()">Image Gallery</div>
+			<div onclick="videos()">Videos</div>
+			<div onclick="blog()">Blog</div>
+			<div onclick="tutorial()">Tutorial</div>
+			<div onclick="games()">Play Games</div>
+			<div onclick="jobs()">Job Search</div>
+			<div onclick="analytics()">Analytica</div>
+		</div>
+
+	</div>
+<!-- search header -->
+		<div id="header-blog-main-content">
+
+			<div id="search-main-content">
+				<input type="search" name="search" placeholder="Search here" style="width: 600px;border-radius: 25px;">
+				<button class="btn" style="width: 200px;border-radius: 25px; ">Search</button>
+			</div>
+		</div>
+
+
+
+
+
+	<!-- main content of the blog -->
+		<div id="blog-main-content">
+			<!-- gallery design -->
+			<div id="olodash">
+				<div>OloDash</div>
+				<p>The new way to view things</p>
+			</div>
+
+			<!-- <div id="gallery" class="attach">
+				<div id="slideshow">
+				
+				</div>
+				<div id="image-content">
+					<div id="left-arrow"><i class="fas fa-arrow-circle-left"></i></div>
+					<div id="prev1" class="preview"></div>
+					<div id="prev2" class="preview"></div>
+					<div id="prev3" class="preview"></div>
+					<div id="right-arrow"><i class="fas fa-arrow-circle-right"></i></div>
+				</div>
+			</div> -->
+
+
+
+			<!-- blog design -->
+			<!-- <div id="blog" class="dettach">
+				<a href="#spinner">
+					<div id="spinner-1" class="spinner" onclick="spinner(this.id)">
+						<h5>Where does it come from?</h5>
+					</div>
+				</a>
+				
+				<div id="spinner-details-1" class="spinner-details dettach">
+					<p></p>
+				</div>
+			</div> -->
+			<!-- game -->
+			<div id="game" class="dettach"></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+	<!-- right side panel -->
+		<div id="right-side-panel">
+			<div id="right-side-panel-updates">
+				<button id="login" class="btn" style="width: 200px; border-radius: 25px;" onclick="login()">Login</button>
+			</div>
+			<div id="card-container">
+				<div class="update-card"><a href="">soon to be updated</a></div>
+				<div class="update-card"><a href="">soon to be updated</a></div>
+				<div class="update-card"><a href="">soon to be updated</a></div>
+				<div class="update-card"><a href="">soon to be updated</a></div>
+				<div class="update-card"><a href="">soon to be updated</a></div>
+			</div>
+
+		</div>
+
+</div>
+
+<!-- contact details -->
+<div id="contact">
+	<div id="cdetails">
+
+		<form>
+			<div id="mobile" style="color: white">Call-me @: <span style="font-size: 20px">6295052497</span></div>
+			<div id="email" style="color: white">Mail-me @: <span style="font-size: 20px">saptadipa123@gmail.com</span></div>
+			<input type="text" name="name" placeholder="Name"><br>
+			<input type="email" name="email" placeholder="Email Id"><br>
+			<textarea rows="10" cols="50" placeholder="Message"></textarea><br>
+			<button id="send-message" class="btn" style="width: 200px;border-radius: 25px; ">Send</button><br>
+
+		</form>
+	</div>
+</div>
+<div id="tag-line"><span style="color: #ff4081">i</span><span style="color: #ffd600">Nnovation</span> starts here</div>
+<footer id="news-letter">
+	<h3>Subscribe to Saikat Paul</h3><br>
+	<p>Get the latest and greatest from Saikat Paul delivered straight to your inbox every week.</p>
+
+	<div>
+		<input type="text" name="email" placeholder="Your email address" style="padding-left: 20px;">
+		<button class="btn" style="width: 200px;border-radius: 25px; ">Send</button>
+	</div>
+
+	<label>Copyright © 2018 By Saikat Paul</label><br>
+	<a href="https://www.facebook.com/saikatx10?ref=bookmarks"><i class="fab fa-facebook"></i></a>
+	<a href="https://www.linkedin.com/in/saikatpaul123/"><i class="fab fa-linkedin"></i></a>
+	<a href=""><i class="fab fa-twitter-square"></i></a>
+	<a href="https://github.com/Saikat180891"><i class="fab fa-github-square"></i></a>
+</footer>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
